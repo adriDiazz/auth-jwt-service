@@ -1,0 +1,14 @@
+server:
+    port: 8080
+
+jwt:
+    secret: secretuihjksdfhjkshfjkahsjkfhaksjhfjkgsFUGhjfghjksdfgh12893748937489juiashdfjhaskfjhasashfjkasdhf
+
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/users
+        username: postgres
+        password: 1234
+    jpa:
+        hibernate:
+            ddl-auto: update
